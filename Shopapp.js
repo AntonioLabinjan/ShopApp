@@ -64,7 +64,7 @@ function addProduct(name, price, quantity) {
     }
 }
 
-// Dodana funkcionalnost za uređivanje proizvoda
+
 const updateProductButton = document.getElementById("updateProduct");
 
 updateProductButton.addEventListener("click", () => {
@@ -106,7 +106,7 @@ function updateBudgetOnProductUpdate(previousPrice, previousQuantity, newPrice, 
     currentBudgetAmount.textContent = remainingBudget.toFixed(2);
 }
 
-// ... ostatak koda ostaje isti ...
+
 function updateUI() {
     productList.innerHTML = "";
     for (let i = 0; i < products.length; i++) {
@@ -156,5 +156,5 @@ function deleteProduct(index) {
     }
 }
 
-// Inicijalno ažuriranje UI
+
 updateUI();
