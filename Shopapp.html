@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopApp</title>
+	<link rel="stylesheet" href="Shopapp.css">
+</head>
+<body>
+    <h1>ShopApp</h1>
+    <label for="budget">Unesite novčani iznos kojim raspolažete:</label>
+    <input type="number" id="budget" min="0">
+    <button id="setBudget">Postavi iznos</button>
+
+    <p id="budgetStatusLabel"></p>
+    
+    <label for="updateBudget">Unesite novi iznos budžeta:</label>
+    <input type="number" id="updateBudget" min="0">
+    <button id="updateBudgetButton">Ažuriraj budžet</button>
+    
+    <p>Trenutni iznos budžeta: <span id="currentBudgetAmount">0</span> €</p>
+
+    <label for="productName">Ime proizvoda:</label>
+    <input type="text" id="productName">
+
+    <label for="productPrice">Cijena proizvoda (€):</label>
+    <input type="number" id="productPrice" min="0">
+
+    <label for="productQuantity">Količina proizvoda:</label>
+    <input type="number" id="productQuantity" min="0">
+
+    <button id="addProduct">Dodaj proizvod</button>
+    <!-- Tipka za uređivanje proizvoda -->
+    <button id="updateProduct" style="display: none;">Spremi promjene</button>
+
+    <h2>Lista proizvoda</h2>
+    <ul id="productList"></ul>
+
+    <script src="Shopapp.js"></script>
+</body>
+</html>
