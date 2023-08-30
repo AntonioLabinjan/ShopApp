@@ -156,5 +156,4 @@ function deleteProduct(index) {
     }
 }
 
-
 updateUI();
