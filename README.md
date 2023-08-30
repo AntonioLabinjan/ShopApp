@@ -32,6 +32,6 @@ Delete products using the "Delete" button next to each product.
 
 ## Technologies Used
 
- HTML
- CSS
- JavaScript
+<li>HTML</li> 
+<li>CSS</li>
+<li>JavaScript</li> 
