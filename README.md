@@ -20,18 +20,18 @@ The remaining budget is displayed in real-time as users add, update, or delete p
 
 ## Usage
 
-### Set the initial budget by entering an amount and clicking the "Set Budget" button.
+ Set the initial budget by entering an amount and clicking the "Set Budget" button.
 
-### Add products by providing the name, price, and quantity. Click the "Add Product" button to save.
+ Add products by providing the name, price, and quantity. Click the "Add Product" button to save.
 
-### Edit product details using the "Edit" button next to each product. Make the necessary changes and click the "Update" button.
+ Edit product details using the "Edit" button next to each product. Make the necessary changes and click the "Update" button.
 
-### Delete products using the "Delete" button next to each product.
+ Delete products using the "Delete" button next to each product.
 
-### The remaining budget will be updated automatically with each action, providing a clear overview of available funds.
+ The remaining budget will be updated automatically with each action, providing a clear overview of available funds.
 
 ## Technologies Used
 
-### HTML
-### CSS
-### JavaScript
+ HTML
+ CSS
+ JavaScript
